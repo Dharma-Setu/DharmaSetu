@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharma Setu - Spiritual Connection in 6 Languages</title>
+    <style>
+        :root {
+            --primary: #FF9933; /* Deep Saffron */
+            --secondary: #8E44AD; /* Spiritual Purple */
+            --dark: #2C3E50;
+            --light: #FFFFFF;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #FFF9F2;
+            color: var(--dark);
+            text-align: center;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary), #FFCC33);
+            color: white;
+            padding: 60px 20px;
+            clip-path: ellipse(150% 100% at 50% 0%);
+        }
+        .logo-placeholder {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-bottom: 10px;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { color: var(--primary); margin-top: 0; }
+        .languages {
+            background: var(--dark);
+            color: white;
+            padding: 40px 20px;
+        }
+        .lang-pills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .pill {
+            background: rgba(255,255,255,0.1);
+            padding: 8px 20px;
+            border-radius: 50px;
+            border: 1px solid var(--primary);
+            font-size: 0.9rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 30px;
+            box-shadow: 0 4px 15px rgba(255, 153, 51, 0.4);
+        }
+        footer {
+            padding: 40px 20px;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+        .footer-links a {
+            color: var(--secondary);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        @media (max-width: 600px) {
+            .hero { padding: 40px 15px; }
+            .logo-placeholder { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="logo-placeholder">Dharma Setu</div>
+        <p class="tagline">The Bridge to Devotion. Access Aarti, Bhajans, and Mantras in your own voice.</p>
+        <a href="#features" class="cta-button">Explore Features</a>
+    </section>
+
+    <section class="features" id="features">
+        <div class="card">
+            <h3>🕉️ Complete Sangrah</h3>
+            <p>Access Aarti, Chalisa, Mantras, Ashtakas, and Bhajans all in one place. No need for multiple apps.</p>
+        </div>
+        <div class="card">
+            <h3>🚫 100% Free</h3>
+            <p>No subscriptions, no hidden fees. Our goal is to make spiritual content accessible to everyone.</p>
+        </div>
+        <div class="card">
+            <h3>📱 Simple UI</h3>
+            <p>Designed for all age groups. Easy to read and easy to navigate in your preferred language.</p>
+        </div>
+    </section>
+
+    <section class="languages">
+        <h2>Available in 6 Languages</h2>
+        <div class="lang-pills">
+            <span class="pill">Hindi (हिन्दी)</span>
+            <span class="pill">Marathi (मराठी)</span>
+            <span class="pill">Rajasthani (राजस्थानी)</span>
+            <span class="pill">Telugu (తెలుగు)</span>
+            <span class="pill">Tamil (தமிழ்)</span>
+            <span class="pill">Kannada (ಕನ್ನಡ)</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>Developed with ❤️ by Dharma Setu</p>
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="mailto:your-email@gmail.com">Contact Support</a>
+        </div>
+        <p style="font-size: 0.7rem; margin-top: 20px;">
+            Disclaimer: All spiritual content rights belong to their respective owners.
+        </p>
+    </footer>
+
+</body>
+</html>
